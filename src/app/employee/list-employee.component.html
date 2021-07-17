@@ -1,0 +1,25 @@
+<div class="table-responsive">
+  <table class="table table-bordered" *ngIf="empolyees && empolyees.length">
+    <thead>
+      <tr class="bg-primary">
+        <th>Full Name</th>
+        <th>Email</th>
+        <th>Phone Number</th>
+        <th>Contact Preference</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let employee of empolyees">
+      <td>{{employee.fullName}}</td>
+      <td>{{employee.email}}</td>
+      <td>{{employee.phone}}</td>
+      <td>{{employee.contactPreference}}</td>
+      <td>
+        <div class="btn btn-toolbar">
+        <button class="btn btn-primary" (click)="onButtonEditClick(employee.id)">Edit</button>
+          <button disabled class="btn btn-primary" (click)="onButtonDeleteClick(employee.id)">Delete</button>
+        </div></td>
+      
+    </tbody>
+  </table>
+</div>
