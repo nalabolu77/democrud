@@ -11,8 +11,9 @@ import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http
 export class EmployeeService {
   constructor(private httpClient: HttpClient) { }  
 
-   baseUrl = 'http://localhost:3000/employees';
+   //baseUrl = 'http://localhost:3000/employees';
   //baseUrl = 'http://localhost:52035/api/employees';
+  baseUrl = "http://mohanreddy-001-site1.ctempurl.com/api/employees";
   getEmployees(): Observable<IEmployee[]> {
     return this.httpClient.get<IEmployee[]>(this.baseUrl)
       .pipe(catchError(this.handlError));

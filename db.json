@@ -1,0 +1,94 @@
+{
+  "employees": [
+    {
+      "id": 4,
+      "fullName": "Sandhya",
+      "contactPreference": "phone",
+      "email": "sandhya@dell.com",
+      "phone": "567765656",
+      "skills": [
+        {
+          "skillName": "Oracle ",
+          "experienceInYears": "8",
+          "proficiency": "advanced"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "fullName": "Madu",
+      "contactPreference": "phone",
+      "email": "madhu@dell.com",
+      "phone": "90987878",
+      "skills": [
+        {
+          "skillName": "Oracle",
+          "experienceInYears": "6",
+          "proficiency": "intermediate"
+        },
+        {
+          "skillName": "App DB",
+          "experienceInYears": "7",
+          "proficiency": "intermediate"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "fullName": "Mohan",
+      "contactPreference": "email",
+      "email": "mohan@dell.com",
+      "phone": "4567898654",
+      "skills": [
+        {
+          "skillName": "C#",
+          "experienceInYears": "7",
+          "proficiency": "advanced"
+        },
+        {
+          "skillName": "Angular",
+          "experienceInYears": "4",
+          "proficiency": "intermediate"
+        },
+        {
+          "skillName": "MVC",
+          "experienceInYears": "5",
+          "proficiency": "intermediate"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "fullName": "Mounika",
+      "contactPreference": "phone",
+      "email": "mounika@dell.com",
+      "phone": "43589645358790",
+      "skills": [
+        {
+          "skillName": "DevOps",
+          "experienceInYears": "4",
+          "proficiency": "intermediate"
+        },
+        {
+          "skillName": "AWS",
+          "experienceInYears": "2",
+          "proficiency": "beginer"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "fullName": "Mounika S",
+      "contactPreference": "email",
+      "email": "m@dell.com",
+      "phone": "87698687",
+      "skills": [
+        {
+          "skillName": "Linux",
+          "experienceInYears": "4",
+          "proficiency": "intermediate"
+        }
+      ]
+    }
+  ]
+}
